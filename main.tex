@@ -1,0 +1,40 @@
+\documentclass[10pt,oneside,letterpaper]{article}
+
+\newcommand{\reporttitle}{Project Name}
+\newcommand{\reportauthor}{Cai Yuxuan}
+\newcommand{\cid}{A0352819W}
+\newcommand{\email}{yuxuan.cai@u.nus.edu}
+\newcommand{\reporttype}{Coursework}
+\bibliographystyle{IEEEtran}
+
+% include files that load packages and define macros
+\input{includes} % various packages needed for maths etc.
+\input{notation} % short-hand notation and macros
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+% front page
+\input{titlepage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% table of content
+%If a table of content is needed, simply uncomment the following lines
+%\tableofcontents
+%\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Main document starts
+
+\input{sections/1-introduction}
+\input{sections/summary}
+
+\vfill
+
+\newpage
+\bibliography{mybib}
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Main document ends

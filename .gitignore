@@ -1,0 +1,18 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.pdf
+*.synctex.gz
+*.thm
+*.xdv
+*.txt
+
+# Common editor/OS noise
+.DS_Store
+Thumbs.db
